@@ -65,7 +65,7 @@ flags.DEFINE_string('name', 'logits:0', '')
 #flags.DEFINE_float('cth', 0.5, '')
 #flags.DEFINE_integer('stride', 0, '')
 flags.DEFINE_float('rx', 0.2, '')
-flags.DEFINE_float('classes', 4, '')
+flags.DEFINE_float('classes', 7, '')
 
 def visualize (path, image, prob):
     images = []

@@ -20,7 +20,7 @@ from gallery import Gallery
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 flags.DEFINE_string('db', 'E.db', '')
-flags.DEFINE_integer('classes', 4, 'E has 4 classes')
+flags.DEFINE_integer('classes', 7, 'E has 7 classes')
 flags.DEFINE_string('mixin', None, '')
 flags.DEFINE_string('val', None, '')
 flags.DEFINE_string('net', 'resnet_v1_50', '')

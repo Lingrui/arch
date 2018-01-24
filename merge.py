@@ -7,8 +7,10 @@ import picpac
 
 DBS = [('D.db', ['m_D_0.db', 'm_D_1.db',
                  'm_D_3.db', 'm_D_4.db',
-                 'm_D_6.db']),
-       ('E.db', ['m_E_0.db', 'm_E_1.db', 'm_E_3.db'])]
+                 'm_D_5.db','m_D_6.db']),
+       ('E.db', ['m_E_0.db', 'm_E_1.db',
+                 'm_E_3.db','m_E_4.db',
+                 'm_E_5.db','m_E_6.db'])]
 
 RX = 0.2    # reduce to 0.2 of original size
 
